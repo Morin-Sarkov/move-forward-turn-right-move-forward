@@ -1,0 +1,22 @@
+
+void hard_fly(); //define movey movey wheelymabobs
+void turn_right(); //define turny turny wheelymabobs
+int main() //define one function to rule them all
+{
+	hard_fly(); //execute movey movey wheelymabobs uno
+	turn_right(); //execute turny turny wheelymabobs uno
+	hard_fly(); //execute movey movey wheelymabobs dos
+
+return 0; //returns zero
+}
+void hard_fly()
+{
+	motor(1,100);
+	motor(2,100);
+	msleep(5000);
+}
+void turn_right()
+{
+	motor(1,70);
+	msleep(4000);
+}
